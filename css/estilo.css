@@ -1,0 +1,175 @@
+/*Normalize*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes entrada-por-la-izquierda {
+    0%{
+        transform: translateX(-600px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+.encabezado{
+    background-color: #fd611a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    min-height: 13vh;
+}
+
+.barraNavegacion{
+    background-color: #fd611a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    min-height: 8vh;
+}
+.barraNavegacion :hover{
+    color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+ .busqueda{
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    height: 50px;
+    margin: -0.875px 0px 0px;
+    border-radius: 4px;
+    border: none;
+    border: 1px gainsboro solid;
+}
+
+.buscador{
+    position: relative;
+}
+
+.lupa{
+    position: absolute;
+    padding-left: 20px;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo{
+    animation-name: entrada-por-la-izquierda;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+.iniciarSesion i{
+    font-size: 20px;
+}
+
+.botonInisiarSesion{
+    background-color: #fd611a;
+    padding: 0px 16px;
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    box-shadow: 0 3px 1px -2px gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.irCarrito{
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.irCarrito span{
+    background-color: red;
+    position: absolute;
+    top: -2px;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: 12px;
+    line-height: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.novedades{
+    border-bottom: black 2px solid;
+}
+
+.carta{
+    padding: 16px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    box-shadow: 0px 3px 5px rgb(172, 170, 170);
+    border-radius: 5px;
+}
+
+.carta img{
+    width: 120px;
+}
+
+.carta h3{
+    font-size: 1.1rem;
+    text-align: center;
+    min-height: 6vh;
+    padding-top: 5px;
+}
+
+.precio{
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.cartasContenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 13vh;
+}
+
+.seccionProductos{
+    margin: 10vh 5vw;
+}
+
+.marcasContenedor{
+    margin-top: 0px;
+}
+
+.marcas{
+
+}
