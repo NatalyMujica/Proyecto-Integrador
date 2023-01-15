@@ -203,7 +203,6 @@ a{
 .marcasContenedor{
 
     padding: 0%;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,28 +211,21 @@ a{
 
 /* FOOTER PARTE NARANJA*/
 /* PRIMERA SECCION */
-.seccionFooter{
+.primeraSeccion{
     background-color: #fd611a;
-    margin: 14vh 0vw;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.codigoFiscal{
-    padding-right: 50px;
-    text-align: right;
-}
-
 .imagenCodigoFiscal img{
-    width: 80px;
+    width: 99px;
+    padding-right: 25px;
 }
 
 /* SEGUNDA SECCION */
 .segundaSeccion{
-    grid-column: span 2;
     padding: 0px;
     border-left: 1px solid hsla(0,0%,100%,.3215686274509804);
     text-align: center;
@@ -244,9 +236,8 @@ a{
 }
 
 .contacto p{
-    font-size: 16px;
-    color: #fff;
-    padding: 0px;
+    font-size: 15px;
+    color: #fff
 }
 
 .contacto a{
@@ -254,12 +245,11 @@ a{
     color: #fff;
     border: 1px solid hsla(0,0%,100%,.3215686274509804);
     border-radius: 5px;
-    padding: 7px;
+    padding: 5px;
 }
 
 /* TERCERA SECCION */
 .terceraSeccion{
-    grid-column: span 2;
     border-left: 1px solid hsla(0,0%,100%,.3215686274509804);
     padding: 30px;
 }
@@ -292,7 +282,6 @@ a{
 /* CUARTA SECCION */
 
 .cuartaSeccion{
-    grid-column: span 2;
     border-left: 1px solid hsla(0,0%,100%,.3215686274509804);
     padding: 30px;
     padding-left: 30px;
@@ -318,7 +307,7 @@ a{
 
 .iconosRedesSociales a{
     text-align: center;
-    font-size: 30px;
+    font-size: 34px;
     color: #fff;
 }
 
